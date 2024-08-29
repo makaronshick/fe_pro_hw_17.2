@@ -3,8 +3,6 @@
 // Створіть клас Coach, який буде представляти тренера. Додайте властивості, такі як ім'я, спеціалізація та рейтинг.
 // Також реалізуйте метод для виведення інформації про тренера та його рейтинг.
 
-const ERROR_MESSAGE = "One of values is not a valid number";
-
 class Coach {
   constructor(name, specialization, rating) {
     this.name = this.#validateName(name);
